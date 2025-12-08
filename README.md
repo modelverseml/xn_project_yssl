@@ -7,15 +7,14 @@ It accepts regulatory **URLs or text**, processes them through an NLP pipeline, 
 
 ## 📁 Folder Structure
 
-Regulatory_project_submission/
-│
+```bash
+regulatory_project/
 ├── requirements.txt
 ├── regulatory_project/
 │ ├── regulatory_project/ # Django settings, URLs
 │ ├── regulatory_app/ # Backend logic
 │ │ ├── models.py # Database models
 │ │ ├── views.py # API endpoints
-│ │ ├── serializers.py # DRF serializers
 │ │ ├── utils/ # NLP (summary, tags, scoring)
 │ │ ├── migrations/
 │ │ └── ...
@@ -29,12 +28,13 @@ Regulatory_project_submission/
 │ │ └── ...
 │ ├── package.json
 │ └── ...
-│
-├── sample_data/ # Sample regulatory text/URLs
 └── README.md
-
-
+```
 ---
+
+
+
+
 
 ## Setup Instructions
 
