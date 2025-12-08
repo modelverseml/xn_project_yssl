@@ -1,0 +1,92 @@
+/* Reset default body */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa; /* light background for dashboard */
+}
+
+/* Cards styling */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Nav pills */
+.nav-pills .nav-link {
+    border-radius: 50px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    transition: all 0.2s;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffffff !important;
+    color: #0d6efd !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Full-page forms (FetchForm, Login) */
+.full-page {
+    min-height: calc(100vh - 120px); /* account for header + footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* Text truncation for list page */
+.card-text {
+    max-height: 4.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Wordcloud & visualizations cards */
+.card h5 {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+/* Scrollable pre block */
+pre {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Responsive padding */
+@media (max-width: 768px) {
+    .container-fluid, .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

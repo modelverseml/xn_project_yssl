@@ -1,0 +1,7 @@
+django
+mysqlclient
+requests
+bs4
+transformers
+django-cors-headers
+torch
