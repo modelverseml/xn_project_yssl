@@ -112,7 +112,7 @@ npm start
 
 Frontend will run at:
 ```bash
-http://localhost:3000/
+http://localhost:5173/
 ```
 
 #### 4. Build Production Version
