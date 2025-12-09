@@ -18,16 +18,13 @@ regulatory_project/
 │ │ ├── utils/ # NLP (summary, tags, scoring)
 │ │ ├── migrations/
 │ │ └── ...
-│ └── ...
-│
-├── frontend_app/
-│ ├── src/
-│ │ ├── pages/ # Pages (Home, Upload, Results)
-│ │ ├── components/ # UI components
-│ │ ├── api/ # API fetch logic
-│ │ └── ...
-│ ├── package.json
-│ └── ...
+│ ├── frontend_app/
+│   ├── src/
+│   ├── pages/ # Pages (Home, Upload, Results)
+│   ├── components/ # UI components
+│   ├── api/ # API fetch logic
+│   └── ...
+│   ├── package.json
 └── README.md
 ```
 ---
