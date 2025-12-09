@@ -42,7 +42,7 @@ regulatory_project/
 
 #### 1. Create Virtual Environment
 ```bash
-cd regulatory_project_submission
+cd regulatory_project
 python3 -m venv venv
 source venv/bin/activate       # macOS / Linux
 
